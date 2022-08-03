@@ -1,0 +1,8 @@
+remotes:
+ - devialet: {url: ssh+git://git@github.com/devialet}
+defaults:
+ - remote: devialet
+ - revision: master
+packages:
+ - dsp_algo_sam: {path_prefix: packages-maxmsp, revision: v3.11-m2.11}
+ - dsp_dive_tools: {path_prefix: packages-maxmsp, revision: 3dbc7d1277e7c9128cb6c9673cf48aeb99c21305}
